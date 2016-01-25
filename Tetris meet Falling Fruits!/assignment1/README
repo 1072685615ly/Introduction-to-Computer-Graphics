@@ -1,0 +1,15 @@
+Instructions:
+1.At first, you should enter "make" and "./FruitTetris"
+2.If the row is filled, then it will automatically remove. If the same three color in a row or in a column it will remove too. However, if it has three more same , it will also just remove three. 
+3. You change use "space" to change the color order. You can left and right to move. down for speed up. up for rotate.
+
+complete & uncomplete steps
+(a)  Tile and grid rendering and tile downward movement.    Complete
+(b)  Stack‐up 												Complete
+(c)  Key stroke interaction and tile movements 				Complete
+(d)	 Additional game logic
+	1) When three same fruits are in a row or column, they will be removed and the tiles above 
+them  will  be  moved  down. 
+	It will just change the column or row that removed. The others will not change, so may you will find some tile does not has bottom
+
+	2)  When  a  row  is  completely  filled,  it  is  removed  and  the  tiles above it will be moved one row down. Game terminates when a new tile piece cannot be fit  within the game window. Press ‘q’ to quit and ‘r’ to restart. Pressing any of the arrow keys should not slow down the downward movement of a tile. 									Complete
